@@ -4,7 +4,7 @@ def square_array(array)
   squared = Array.new
 
   while counter < array.length do
-    squared = array[counter] ** 2
+    squared.push(array[counter] ** 2) 
     counter = counter + 1
   end
   return squared
